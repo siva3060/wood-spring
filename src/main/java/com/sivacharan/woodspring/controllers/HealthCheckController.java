@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HealthCheckController {
     @GetMapping("/health-check")
     public String HealthCheck(){
-       return "KEEP_ALIVE_OK";
+       return "KEEP_ALIVE_OK_SPRING";
     }
 }
